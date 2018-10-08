@@ -1,10 +1,10 @@
 # ethical
 
 1. INTRODUCCIÓN A LA SEGURIDAD
-a. Premisas de seguridad.
-b. Equipo de trabajo.
-c. Responsabilidades.
-d. Desarrollo de las pruebas.
+     a. Premisas de seguridad.
+     b. Equipo de trabajo.
+     c. Responsabilidades.
+     d. Desarrollo de las pruebas.
 
 
 2. FOOTPRINTING
