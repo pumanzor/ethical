@@ -9,24 +9,24 @@
 
 2. FOOTPRINTING
 
-a. Introducción.
-b. Entidades.
-c. Buscadores.
-d. El sitio web.
-e. Otras fuentes.
-f. Metadatos.
+   a. Introducción.
+   b. Entidades.
+   c. Buscadores.
+   d. El sitio web.
+   e. Otras fuentes.
+  f. Metadatos.
 
 a. DNS.
-b. ICMP (Ping).
-c. Traceroute.
-d. Banner grabbing.
-e. Nmap.
-f. Zmap.
-g. SMTP.
-h. VoIP.
-i. RPC.
-j. SNMP.
-k. Firewalls.
+  b. ICMP (Ping).
+  c. Traceroute.
+  d. Banner grabbing.
+  e. Nmap.
+  f. Zmap.
+  g. SMTP.
+  h. VoIP.
+  i. RPC.
+  j. SNMP.
+  k. Firewalls.
 
 4. SEGURIDAD EN REDES
 
