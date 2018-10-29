@@ -14,11 +14,11 @@
 
 -- Desarrollo
 
-1.- Instalar el set de herramientas y sistemas que utilizara para lograr los objetivos, se sugiere Linux Box (Kali o cualquier Linux con paquete nmap instalado y/o herramientas que ud prefiera)
+1.- Instalar el set de herramientas y sistemas que utilizara para lograr los objetivos, se sugiere Linux Box (Kali o cualquier Linux con paquete nmap instalado y/o herramientas que ud prefiera), en el mirror iso kali+nessus+openvas, vmdk openvas.
 
 2.- Scannear la red y descubrir la(s) direccion(es) IP donde se prestan los servicios
 
-3.- Descubrir la version de software instalado en el servidor sin ser detectado por el firewall
+3.- Descubrir la version de software instalado en el servidor
 
 
 |||Server-Cliente|||-------LAN----192.168.200.0/24--------|||Ethical-Hacking-test|||
