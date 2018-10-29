@@ -1,6 +1,6 @@
-Lab. 1 Ethical Hacking - Reconocimiento, footprinting, scanning.
+## Lab. 1 Ethical Hacking - Reconocimiento, footprinting, scanning.
 
-                                                                                                  Santiago Octubre 2018
+                                                                                     Santiago Octubre 2018
 
 -- Objetivos:
 
