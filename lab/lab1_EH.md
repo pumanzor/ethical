@@ -23,6 +23,9 @@
 
 |||Server-Cliente|||-------LAN----192.168.200.0/24--------|||Ethical-Hacking-test|||
 
+4.- Reportar las vulnerabilidades encontradas.
+
+5.- Sugerir contramedidas y remediaciones.
 
 Alcances: 
  
