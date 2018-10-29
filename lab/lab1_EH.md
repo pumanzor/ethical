@@ -28,6 +28,7 @@ Alcances:
  
     - Se suministra informacion basica para realizar el test.
 
-    - ** El firewall del cliente posee un sistema para detectar scanning de puertos tcp/udp y bloqueara la ip origen por 5 minutos.
+    - ** El firewall del cliente posee un sistema para detectar scanning de puertos tcp/udp y bloqueara 
+    la ip origen por 5 minutos.
 
     - El informe debe ser en el formato de reporte de vulnerabilidades. 
