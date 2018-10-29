@@ -1,4 +1,4 @@
-## Lab. 1 Ethical Hacking - Reconocimiento, footprinting, scanning.
+## Lab. 1 Ethical Hacking - Test de Vulnerabilidad
 
                                                                                      Santiago Octubre 2018
 
