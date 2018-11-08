@@ -1,0 +1,6 @@
+1. Open up the terminal window and start Metasploit using the command msfconsole.
+2. Select the auxiliary module scanner/portscan/tcp to perform a port scan against a target system.
+3. Using the show option command, list down all parameters that need to be configured in order to run this auxiliary module.
+4. Using the set RHOSTS command, set the IP address of our target system.
+5. Using the set PORTS command, select the port range you want to scan on your target system.
+6. Using the run command, execute the auxiliary module with the parameters configured earlier.
