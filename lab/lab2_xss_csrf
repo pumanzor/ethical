@@ -1,0 +1,20 @@
+Laboratorio 2- CSRF - XSS
+
+
+-- Objetivos:
+
+    - Practicar vulnerabilidades CSRF - XSS
+    - Utilizar un ambiente propio de pruebeas mediante LAMP
+    - Verificar ataques XSS y CSRF
+    - Remediar , prevenir y solucionar errores de programacion
+
+-- Desarrollo
+
+1.- Instale su ambiente de desarroilo acorde a los objetivos, es decir 
+
+- a: 1 x webserver con el codigo vulnerable
+- b: 1 x browser y LAMP del atacante
+- c: 1 x browser firefox y chrome
+
+
+Para a: utilice los scripts que ya tiene disponible para hacer las prueba
