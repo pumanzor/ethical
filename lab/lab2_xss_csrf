@@ -17,4 +17,12 @@ Laboratorio 2- CSRF - XSS
 - c: 1 x browser firefox y chrome
 
 
-Para a: utilice los scripts que ya tiene disponible para hacer las prueba
+Para a: utilice los scripts que ya tiene disponible para hacer las pruebas en la carpeta php, elimine la tabla actual que dispone 
+en su DB mysql y reemplacela por esta
+
+https://github.com/pumanzor/ethical/blob/master/lab/mysql/dump_listado
+
+copie y pegue el contenido del archivo dump_listado en una ventana de query de phpmyadmin dentro de la DB paises
+
+
+Para b: instale un LAMP en otro server , inicie la db con 
