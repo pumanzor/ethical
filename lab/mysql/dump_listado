@@ -1,0 +1,32 @@
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `listado`
+--
+
+CREATE TABLE `listado` (
+  `id` int(8) NOT NULL,
+  `pais` varchar(700) NOT NULL,
+  `capital` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `listado`
+--
+ALTER TABLE `listado`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `listado`
+--
+ALTER TABLE `listado`
+  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+COMMIT;
