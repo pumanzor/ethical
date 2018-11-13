@@ -25,4 +25,35 @@ https://github.com/pumanzor/ethical/blob/master/lab/mysql/dump_listado
 copie y pegue el contenido del archivo dump_listado en una ventana de query de phpmyadmin dentro de la DB paises
 
 
-Para b: instale un LAMP en otro server , inicie la db con 
+Luego crear directorios de trabajo en el server de manera de separar los distintos tipos de vulnerabilidades
+
+CRSF
+---------------
+cd /var/www/html/
+mkdir csrf
+cd csrf
+mkdir test1
+mkdir test2
+.
+.
+.
+mkdir testX
+
+XSS
+----------------
+cd /var/www/html/
+mkdir xss
+cd xss
+mkdir test1; mkdir test2; ....mkdir testX
+
+
+luego copie las paginas web a desarrollar dentro de las carpetas de pruebas
+
+En el caso de CSRF copiar los archivos;
+
+- search.php
+- configdb.php
+- index.php
+- agregar.php
+
+
