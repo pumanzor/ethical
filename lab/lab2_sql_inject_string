@@ -1,0 +1,1 @@
+http://192.168.30.169/3/id.php?id=3 UNION SELECT pais FROM listado where id=3
