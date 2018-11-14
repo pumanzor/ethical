@@ -63,10 +63,19 @@ XSS persistente
 
 3.- copia los archivos que se encuentran en
 
+https://github.com/pumanzor/ethical/tree/master/lab/xss
 
 a la carpeta
 
 /var/www/html/xss
+
+
+elimine las tablas que existan en la DB paises, luego copie y pegue el dump que se encuentra en
+
+https://github.com/pumanzor/ethical/tree/master/lab/xss/dump.sql
+
+en el cuadro de dialogo de SQL DB paises
+
 
 el usuario admin tiene la clave 8888
 el usuario student tiene la clave 1234
