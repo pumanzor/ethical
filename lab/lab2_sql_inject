@@ -1,0 +1,1 @@
+id.php?id=3 UNION SELECT pais FROM listado where id=3
