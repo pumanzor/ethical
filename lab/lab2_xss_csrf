@@ -59,7 +59,7 @@ CSRF
 
 <a href="http://[HOST]/phpmyadmin/sql.php?sql_query=DROP+DATABASE+[DBNAME]">
 
-3.- XSS non-persistente
+3.- XSS 
 
 utilizar los siguientes string para inyectar codigo en la DB use las paginas que ya tiene instaladas del lab anterior
 
@@ -79,7 +79,8 @@ utilizar los siguientes string para inyectar codigo en la DB use las paginas que
 para ver los resultados utilice search.php
 
 
-XSS persistente
+## XSS persistente Session hijacking attack
+
 4.- copiar los archivos que se encuentran en
 
 https://github.com/pumanzor/ethical/tree/master/lab/xss
