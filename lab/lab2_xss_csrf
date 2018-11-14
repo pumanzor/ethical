@@ -116,9 +116,9 @@ cambiar el PHPSESSID
 
 y reemplazar el valor de la sesion por la variable capturada en netcat
 
-4.- Haga un scanner con alguna herramienta de evaluacion de vulnerabilidades al sitio web
+4.- Inicie un scanner con alguna herramienta de evaluacion de vulnerabilidades al sitio web bajo estudio.
 
-5.- modifique el codigo para remediar XSS
+5.- modifique el codigo para remediar XSS.
 
-6.- Ejecute el scanner nuevamente, compare resultados
+6.- Ejecute el scanner nuevamente, compare resultados.
 
