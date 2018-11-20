@@ -1,3 +1,42 @@
+Laboratorio 3- Metasploit
+
+
+-- Objetivos:
+
+    - Practicar el manejo uso y operacion de la herramienta metasploi
+    - Conducir ataques a nivel de red LAN hacia objetivos windows
+    - Conducir ataques en el lado cliente
+
+--- Ambiente 
+
+1 Pc con Kali
+1 PC Windows 7 SP1 recien instalado
+1 PC Windows 7 SP1 actualizado (parches, Antivirus)
+
+Conexion en la red 192.168.30.0/24
+
+-- Desarrollo Primer test
+
+Desde un PC con Linux explotar la vulnerabilidad ms17_010 en un PC con Windows recien instalado, en este caso utilizar el 
+exploit eternal blue , una vez realizado lo anterior generar una cambio en el PC windows 7 victima
+
+
+-- Desarroolo segundo test
+
+Desde un Pc con kali eplotar la vulnerabilidad ms17_010 de un PC con Windows 7 recien instaldo utilizando eternalblue+doublepulsar
+
+Una vez ganado el acceso, instale un keylogger y tome una instantanea del escritorio de la victima
+
+
+--Desarrollo tercer test
+
+Desde un PC con Kali genere un payload que sea dificil de detectar por un antivirus, la idea es enviarlo por email al PC 
+de la victima con win7 spa1 updated + AV, una vez que el archivo llegue por email al pc de la victima este debe abrirlo, al 
+mismoa tiempo ud debe ejecutar meterpreter de manera de captar el shell inverso que se genero una vez que la victima inicie
+el archivo enviado
+
+
+
 1.- cd /usr/share/nmap/scripts/
 2.- wget https://svn.nmap.org/nmap/scripts/smb-vuln-ms17-010.nse 
 3.- nmap -d -sC -p445 -script smb-vuln-ms17-010.nse 192.168.30.246
