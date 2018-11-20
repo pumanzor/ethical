@@ -13,6 +13,8 @@ Laboratorio 3- Metasploit
 1 PC Windows 7 SP1 recien instalado
 1 PC Windows 7 SP1 actualizado (parches, Antivirus)
 
+se requiere conexion a internet para enviar y recibir email
+
 Conexion en la red 192.168.30.0/24
 
 -- Desarrollo Primer test
@@ -33,7 +35,9 @@ Una vez ganado el acceso, instale un keylogger y tome una instantanea del escrit
 Desde un PC con Kali genere un payload que sea dificil de detectar por un antivirus, la idea es enviarlo por email al PC 
 de la victima con win7 spa1 updated + AV, una vez que el archivo llegue por email al pc de la victima este debe abrirlo, al 
 mismoa tiempo ud debe ejecutar meterpreter de manera de captar el shell inverso que se genero una vez que la victima inicie
-el archivo enviado
+el archivo enviado.
+
+Compruebe en la pagina virustotal que tan indetectable es el archivo payload generado.
 
 ===============================================================================================
 
