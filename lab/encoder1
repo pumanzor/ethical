@@ -1,3 +1,10 @@
+=====================
+
+create file into /usr/share/metasploitframework/modules/encoders/x86
+folder with the name bf_xor.rb.
+
+=====================
+
 require 'msf/core'
 class MetasploitModule < Msf::Encoder
  def initialize
